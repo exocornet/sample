@@ -227,7 +227,7 @@ contPlugin.push(
   new CopyWebpackPlugin({
     patterns: [
       {
-        from: './src/public',
+        from: './src/assets',
         to: './'
       }
     ]
